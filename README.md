@@ -10,4 +10,7 @@ Para esta función la entrada N es el archivo ''.mat'' tomado de https://bit.ly/
 # Función-Ajuste.m
 Para esta función la entrada M es la salida de la función IDP.m, esta función permite obtenes los mapas del coeficiente de difusion aparente y curtosis aparente asociado a cada uno de los 19 cortes del cerebro humano en estudio.
 
-# Función-
+# Función-Clasificacion.m
+Para esta función las entradas LCR,MB,MG están asociadas a los mapas de Liquido Cefaloraquideo, Materia Blanca y Materia Gris obtenidos de la segmentación realizada con el software SPM12, a las imagenes asociadas al valor de b = 0 s/mm2 para cada corte del cerebro humano en estudio y las entradas CDA y CA corresponden con las salidas de la función Ajuste.m
+
+La salida [x,y,x1,y1,x2,y2] de esta función corresponde con 
