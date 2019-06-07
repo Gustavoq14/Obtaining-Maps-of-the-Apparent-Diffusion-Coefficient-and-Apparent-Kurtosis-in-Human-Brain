@@ -25,7 +25,7 @@ Para esta función la entrada N es el archivo ''.mat'' tomado de https://bit.ly/
 Para esta función la entrada M es la salida de la función IDP.m, esta función permite obtener los mapas del coeficiente de difusión y curtosis aparente asociado a cada uno de los 19 cortes del cerebro humano en estudio.
 
 # Función-Clasificacion.m
-Para esta función las entradas LCR,MB,MG son los mapas de Liquido Cefaloraquideo, Materia Blanca y Materia Gris obtenidos de la segmentación realizada con el software SPM12 a las imágenes asociadas al valor de b = 0 s/mm2 para cada corte del cerebro humano en estudio, y las entradas CDA y CA corresponden con las salidas de la función Ajuste.m
+Para esta función las entradas LCR,MB,MG son los mapas de Liquido Cefaloraquídeo, Materia Blanca y Materia Gris obtenidos de la segmentación realizada con el software SPM12 a las imágenes asociadas al valor de b = 0 s/mm2 para cada corte del cerebro humano en estudio, y las entradas CDA y CA corresponden con las salidas de la función Ajuste.m
 
 La salida [x,y,x1,y1,x2,y2] corresponde con los valores de la difusión y curtosis aparente asociados a cada tipo de tejido.
 
