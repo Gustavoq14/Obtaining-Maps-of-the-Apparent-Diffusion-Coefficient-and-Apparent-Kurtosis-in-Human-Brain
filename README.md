@@ -8,7 +8,7 @@ For this function input N is the file '' .mat '' taken from https://bit.ly/2Z9bL
 For this function, the M input is the output of the IDP.m function, this function allows obtaining the maps of the diffusion coefficient and apparent kurtosis associated with each of the 19 slices of the human brain under study.
 
 # Function-Classification.m
-For this function the entries LCR, MB, MG are the maps of Cephaloraquid Liquid, White Matter and Gray Matter obtained from the segmentation made with the software SPM12 to the images associated to the value of b = 0 s / mm2 for each slice of the human brain in study, and the CDA and CA inputs correspond to the outputs of the Adjustment.m function
+For this function the entries LCR, MB, MG are the maps of Cephaloraquid Fluid, White Matter and Gray Matter obtained from the segmentation made with the software SPM12 to the images associated to the value of b = 0 s / mm2 for each slice of the human brain in study, and the CDA and CA inputs correspond to the outputs of the Adjustment.m function
 
 The output [x, y, x1, y1, x2, y2] corresponds to the diffusion and apparent kurtosis values   associated with each type of tissue.
 
