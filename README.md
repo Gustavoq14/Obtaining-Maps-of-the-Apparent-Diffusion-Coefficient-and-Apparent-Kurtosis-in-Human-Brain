@@ -19,7 +19,7 @@ This function is executed after executing the Classification function, its resul
 Las presentes funciones fueron desarrolladas en MATLAB R2017b (The MathWorks, Inc) como parte de mi trabajo especial de grado para optar al título de Licenciado en Física (https://bit.ly/2EWzYsI) . En este trabajo se obtuvieron los mapas del coeficiente de difusión aparente y kurtosis aparente del cerebro  de una persona sana (https://bit.ly/2Z9bLXR). Posteriormente se le realizó una segmentación en los tres tipos de tejido de interés en este estudio (materia gris, materia blanca y liquido cefalorraquideo) para así poder clasificar los valores de difusión aparente y curtosis aparente obtenidos en los mapas, dentro de los tres tipos de tejidos de interés.
 
 # Función-IDP.m
-Para esta función la entrada N es el archivo ''.mat'' tomado de https://bit.ly/2Z9bLXR, esta función permite obtener las imágen de difusión ponderada asociada a cada uno de los 19 cortes del cerebro humano en estudio.
+Para esta función la entrada N es el archivo ''.mat'' tomado de https://bit.ly/2Z9bLXR, esta función permite obtener la imágen de difusión ponderada asociada a cada uno de los 19 cortes del cerebro humano en estudio.
 
 # Función-Ajuste.m
 Para esta función la entrada M es la salida de la función IDP.m, esta función permite obtener los mapas del coeficiente de difusión y curtosis aparente asociado a cada uno de los 19 cortes del cerebro humano en estudio.
