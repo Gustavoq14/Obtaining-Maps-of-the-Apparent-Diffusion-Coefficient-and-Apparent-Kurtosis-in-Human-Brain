@@ -16,4 +16,5 @@ Para esta función las entradas LCR,MB,MG están asociadas a los mapas de Liquid
 La salida [x,y,x1,y1,x2,y2] corresponde con los valores de la difusión y curtosis aparentes asociados a cada tipo de tejido.
 
 # Función-Resultados.m
-Esta función se ejecuta despues de ejecutar la función Clasificacion y el resultado es el valos
+Esta función se ejecuta despues de ejecutar la función Clasificacion, su resultado es el valor promedio de la difusion y curtosis aparente en cada tipo de tejido de cada corte.
+
