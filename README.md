@@ -30,5 +30,5 @@ Para esta función las entradas LCR,MB,MG son los mapas de Liquido Cefaloraquide
 La salida [x,y,x1,y1,x2,y2] corresponde con los valores de la difusión y curtosis aparente asociados a cada tipo de tejido.
 
 # Función-Resultados.m
-Esta función se ejecuta después de ejecutar la función Clasificacion, su resultado es el valor promedio de la difusion y curtosis aparente en cada tipo de tejido de cada corte.
+Esta función se ejecuta después de ejecutar la función Clasificacion, su resultado es el valor promedio de la difusión y curtosis aparente en cada tipo de tejido de cada corte.
 
