@@ -13,7 +13,7 @@ For this function the entries LCR, MB, MG are the maps of Cephaloraquid Liquid, 
 The output [x, y, x1, y1, x2, y2] corresponds to the diffusion and apparent kurtosis values   associated with each type of tissue.
 
 # Function-Results.m
-This function is executed after executing the Classification function, its result is the average value of the diffusion and apparent kurtosis in each type of tissue of each cut
+This function is executed after executing the Classification function, its result is the average value of the diffusion and apparent kurtosis in each type of tissue of each slice
 
 # Obtención-de-los-Mapas-del-Coeficiente-de-Difusión-Aparente-y-Curtosis-Aparente-en-el-Cerebro-Humano
 Las presentes funciones fueron desarrolladas en MATLAB R2017b (The MathWorks, Inc) como parte de mi trabajo especial de grado para optar al título de Licenciado en Física (https://bit.ly/2EWzYsI) . En este trabajo se obtuvieron los mapas del coeficiente de difusión aparente y kurtosis aparente del cerebro  de una persona sana (https://bit.ly/2Z9bLXR). Posteriormente se le realizó una segmentación en los tres tipos de tejido de interés en este estudio (materia gris, materia blanca y liquido cefalorraquideo) para así poder clasificar los valores de difusión aparente y curtosis aparente obtenidos en los mapas, dentro de los tres tipos de tejidos de interés.
